@@ -6,12 +6,12 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
   schedule:
-    - cron:  "0 2 * * mon-fri"  # Runs every day in 12
+    - cron:  "0 22 * * mon-fri"  # Runs every day in 12
 env:
 
   TOKEN: ${{ secrets.ISSUE_TOKEN }}
-  GITHUB_USER_NAME: olozhika # your github id
-  GITHUB_USER_EMAIL: olozhika@foxmail.com # your email address
+  GITHUB_USER_NAME: lajoyazyh # your github id
+  GITHUB_USER_EMAIL: 3035745730@qq.com # your email address
   
   
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
